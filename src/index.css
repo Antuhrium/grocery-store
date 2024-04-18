@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  width: 15px;
+  height: 15px;
+  background: #0b6434;
+}
+
+.swiper-pagination-bullets {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
